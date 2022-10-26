@@ -61,7 +61,7 @@ export default {
       this.answers.push(methodToUse(
         this.operandLeft - 1, this.operandRight + 1)
       )
-      this.answers.push(methodToUse(this.operandLeft - 1, this.operandRight - 2))
+      this.answers.push(methodToUse(this.operandLeft - 1, this.operandRight - 1))
 
       const expectedAnswer = methodToUse(this.operandLeft, this.operandRight)
 
